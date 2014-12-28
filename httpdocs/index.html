@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" charset="UTF-8" type="text/css" href="http://interactivefishing.tv/main.css">
+<meta charset="UTF-8">
+<title>Платежная система WMLandscape</title>
+<script src="http://interactivefishing.tv/wml.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="panel_header">
+    <table>
+        <tbody>
+            <tr>
+            <td>
+                <img src="logo_1.jpg" height="90px">
+            </td>
+            <td>
+                <a id="hdr_title">WML</a><br>
+                <a id="panel_header_title">Платежная система</a>
+            </td>
+            </tr>
+        </tbody>
+    </table>    
+</div>
+<table id="tbl" width="100%" height="80%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+    <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="20%" align="left" valign="top">
+    <div id="panel_header_menu">
+        <p id="panel_header_menu_title">Меню :</p>
+    </div>
+
+<menu>
+    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8104');" onmouseover="return anno('Открытие счета')">Открытие счета</a></li>
+    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8102');" onmouseover="return anno('Внести WML')">Внести WML</a></li>
+    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8103');" onmouseover="return anno('Снять WML')">Снять WML</a></li>
+    <li>Платежи:
+        <menu>
+            <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8107');" onmouseover="return anno('Коммунальные платежи')">Коммунальные</a></li>
+            <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8105');" onmouseover="return anno('Телефонные платежи')">Телефон</a></li>
+            <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8106');" onmouseover="return anno('Платежи за интернет')">Интернет</a></li>
+        </menu>
+    </li>
+    <li>Переводы:
+        <menu>
+            <li>В системе WML:
+                <menu>
+                    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8108');" onmouseover="return anno('На свои счета')">На свои счета</a></li>
+                    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8109');" onmouseover="return anno('На чужие счета')">На чужие счета</a></li>
+                </menu>
+            </li>
+            <li>В другую систему:
+                <menu>
+                    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8110');" onmouseover="return anno('На свои счета')">На свои счета</a></li>
+                    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8111');" onmouseover="return anno('На чужие счета')">На чужие счета</a></li>
+                </menu>
+            </li>
+        </menu>
+    </li>
+    <li>Отчетность:
+        <menu>
+            <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8112');" onmouseover="return anno('Мои счета')">Мои счета</a></li>
+            <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8113');" onmouseover="return anno('Выписка по счету')">Выписка по счету</a></li>
+        </menu>
+    </li>
+</menu>
+
+        </td>
+        </tr>
+        <tr>
+          <td width="20%" align="left" valign="top">
+                <div id="panel_header_menu">
+                    <p id="panel_header_menu_title">Помощь :</p>
+                </div>
+                <menu>
+                    <li><a class="link" href="javascript:showLink('podkluch.inc');" onmouseover="return anno('Подключить')">Подключить</a></li>
+                    <li><a class="link" href="javascript:showLink('last_changes.inc');" onmouseover="return anno('Последние изменения')">Последние изменения</a></li>
+                    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8114');" onmouseover="return anno('Задать вопрос')">Задать вопрос</a></li>
+                    <li><a class="link" href="javascript:showLink('http://interactivefishing.tv:8115');" onmouseover="return anno('Ответы на запросы')">Ответы на запросы</a></li>
+                </menu>
+         </td>
+      </tr>
+        <tr>
+          <td width="20%" align="left" valign="top">
+                <div id="panel_header_menu">
+                    <p id="panel_header_menu_title">Информация :</p>
+                </div>
+                <menu>
+                    <li><a class="link" href="javascript:showLink('zakonodat.inc');" onmouseover="return anno('Законодательная база')">Законодательство</a></li>
+                    <li><a class="link" href="javascript:showLink('faq.inc');" onmouseover="return anno('Ответы на вопросы')">Ответы на вопросы</a></li>
+                    <li><a class="link" href="javascript:showLink('codeks.inc');" onmouseover="return anno('Кодекс системы WebMoneyTransfer')">Кодекс системы WebMoneyTransfer</a></li>
+                    <li><a class="link" href="javascript:showLink('accept_wml.inc');" onmouseover="return anno('Соглашение с Гарантом по WML')">Соглашение с Гарантом по WML</a></li>
+                    <li><a class="link" href="javascript:showLink('agreement.inc');" onmouseover="return anno('Соглашение с Гарантом по WML(ENG)')">AGREEMENT WITH THE WARRANTOR OF WML SYSTEM</a></li>
+                    <li><a class="link" href="javascript:showLink('tarif.inc');" onmouseover="return anno('Тарифы')">Тарифы</a></li>
+                    <li><a class="link" href="javascript:showLink('attestat_pers.inc');" onmouseover="return anno('Аттестация')">Аттестация</a></li>
+                    <li><a class="link" href="javascript:showLink('zayav.inc');" onmouseover="return anno('Заявления')">Заявления</a></li>
+                </menu>
+         </td>
+      </tr>
+    </table>
+</td>
+<td width="60%" align="center" valign="top" height="100%">
+<div id="main_form">
+    <iframe id="frm" name="main_form" type="text/html" src="http://interactivefishing.tv:8101" frameborder="0" height="800" width="100%"></iframe> <!-- height="800" width="100%" !-->
+</div>
+</td>
+
+<td width="20%" align="right" valign="top">
+    <table>
+        <tr>
+            <td>
+                <img src="logo_big.jpg" align="right">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="panel_header_main_form">
+                    <p id="panel_header_main_form_title">Поддержка:</p>
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>    
+                                <p>Москва:</p>
+                            </td>
+                            <td>    
+                                <p>+7-902-7-800-807</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>    
+                                <p>Регионы:</p>
+                            </td>
+                            <td>    
+                                <p>+7-902-7-800-807</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="panel_header_main_form">
+                    <p id="panel_header_main_form_title">Новости:</p>
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>    
+                                <p>18-02-2013</p>
+                            </td>
+                            <td>    
+                                <p>Старт демо-версии</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>    
+                                <p>24-02-2013:</p>
+                            </td>
+                            <td>    
+                                <p>Начало тестирования</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>    
+                                <p>01-03-2013:</p>
+                            </td>
+                            <td>    
+                                <p>Планируемая дата релиза</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="panel_header_main_form">
+                    <p id="panel_header_main_form_title">В соцсетях:</p>
+                </div>
+                <table align="center">
+                    <tbody>
+                        <tr>
+                            <td>    
+                                <img src="b.png">
+                            </td>
+                            <td>    
+                                <img src="fb.png">
+                            </td>
+                            <td>    
+                                <img src="gp.png">
+                            </td>
+                            <td>    
+                                <img src="lj.png">
+                            </td>
+                            <td>    
+                                <img src="my.png">
+                            </td>
+                            <td>    
+                                <img src="t.png">
+                            </td>
+                            <td>    
+                                <img src="tw.png">
+                            </td>
+                            <td>    
+                                <img src="vk.png">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<footer>
+    <div id="bottom">
+        <p id="bottom_text">(c) 2012 WMLandscape</p>
+    </div>
+</footer>
+</body>

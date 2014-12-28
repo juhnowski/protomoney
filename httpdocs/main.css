@@ -1,0 +1,423 @@
+#header {
+	height: 10%;
+}
+
+#menu {
+    top: 10%;
+	left: 0px;
+    width: 20%
+	height: 50%;
+}
+
+#main_form {
+    top: 10%;
+    left: 20%
+    width: 100%
+}
+
+#rpanel {
+    top: 10%;
+    left: 80%
+}
+
+#tbl {
+    width=100%
+    height=100%
+}
+
+#hdr_title
+{
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 24px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 15px;
+    padding:12px;
+}
+
+#bottom {
+    text-shadow: 1px 1px 3px #ccc;
+	background-color: #ff0000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ff0000));
+	background-image: -webkit-linear-gradient(top, #ffffff, #ff0000);
+	background-image:    -moz-linear-gradient(top, #ffffff, #ff0000);
+	background-image:     -ms-linear-gradient(top, #ffffff, #ff0000);
+	background-image:      -o-linear-gradient(top, #ffffff, #ff0000);
+	background-image:         linear-gradient(to bottom, #ffffff, #ff0000);
+	z-index: 11;
+}
+
+#bottom_text {
+    color:#fff;
+    text-align:right;
+}
+
+#panel_header {
+    text-shadow: 1px 1px 3px #ccc;
+
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	-webkit-box-shadow: 0px 0px 4px 0px #bf0000;
+	box-shadow: 0px 0px 4px 0px #000000;
+
+	background-color: #ff0000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#bf0000));
+	background-image: -webkit-linear-gradient(top, #ff0000, #bf0000);
+	background-image:    -moz-linear-gradient(top, #ff0000, #bf0000);
+	background-image:     -ms-linear-gradient(top, #ff0000, #bf0000);
+	background-image:      -o-linear-gradient(top, #ff0000, #bf0000);
+	background-image:         linear-gradient(to bottom, #ff0000, #bf0000);
+	z-index: 11;
+}
+
+#panel_header_title {
+	color:#fff;
+	font-weight:bold;
+	padding:20px 20px;
+	margin:0;
+	width:100%;
+	text-align:left;
+}
+
+#panel_header_menu {
+    text-shadow: 1px 1px 3px #ccc;
+
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	-webkit-box-shadow: 0px 0px 4px 0px #bf0000;
+	box-shadow: 0px 0px 4px 0px #000000;
+
+	background-color: #ff0000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#bf0000));
+	background-image: -webkit-linear-gradient(top, #ff0000, #bf0000);
+	background-image:    -moz-linear-gradient(top, #ff0000, #bf0000);
+	background-image:     -ms-linear-gradient(top, #ff0000, #bf0000);
+	background-image:      -o-linear-gradient(top, #ff0000, #bf0000);
+	background-image:         linear-gradient(to bottom, #ff0000, #bf0000);
+	z-index: 11;
+}
+
+#panel_header_menu_title {
+	color:#fff;
+	padding:-10px 0;
+	margin:0;
+	width:100%;
+	text-align:center;
+}
+
+#panel_header_main_form {
+    text-shadow: 1px 1px 3px #ccc;
+
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	-webkit-box-shadow: 0px 0px 4px 0px #bf0000;
+	box-shadow: 0px 0px 4px 0px #000000;
+
+	background-color: #ff0000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#bf0000));
+	background-image: -webkit-linear-gradient(top, #ff0000, #bf0000);
+	background-image:    -moz-linear-gradient(top, #ff0000, #bf0000);
+	background-image:     -ms-linear-gradient(top, #ff0000, #bf0000);
+	background-image:      -o-linear-gradient(top, #ff0000, #bf0000);
+	background-image:         linear-gradient(to bottom, #ff0000, #bf0000);
+	z-index: 11;
+}
+
+#panel_header_main_form_title {
+	color:#fff;
+	padding:-10px 0;
+	margin:0;
+	width:100%;
+	text-align:center;
+}
+
+#panel_bottom {
+    background-color: #ff0000;
+	width: 100%;
+	height: 2px;
+}
+
+#panel_body {
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px; 
+}
+
+input#username, input#password {
+    width: 150px;
+}
+
+div#validation > div {
+    margin-bottom: 3px;
+}
+
+body {
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: 11px;
+    min-width: 1000px;
+}
+
+a {
+    color: #0069C6;
+}
+
+input {
+    margin-left: 5px;
+    padding:2px;
+}
+
+img{
+  border:none;
+}
+
+td.top_right {
+    vertical-align: top;
+}
+
+td.top_left {
+    text-align: center;
+    width: 15%;
+}
+
+.red_background {
+    background-color: #D90003;
+}
+
+.red {
+    color: #D90003;
+}
+
+div.grayBorder {
+    width: auto;
+    height: auto;
+    overflow: visible;
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+div.login {
+}
+
+table.login td {
+    padding: 3px;
+}
+
+table.btn td {
+    padding: 0;
+}
+
+.plate_red {
+    background-image: url("../images/plate1_red.gif");
+    background-repeat: no-repeat;
+    padding: 4px 0 0 10px;
+}
+
+.label {
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align: right;
+    color: #434343;
+    padding-left: 12px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+}
+
+.label_news {
+    background-image: url(../images/plate1_yellow.gif);
+}
+
+.label_left {
+    background-image: url(../images/plate1_red.gif);
+}
+
+.links {
+    padding: 7px 0px 9px 12px;
+    margin: 2px 9px 21px 20px;
+    line-height: 20px;
+    font-family: Tahoma;
+}
+
+.link {
+    background-image: url(../images/bullet.gif);
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    display: inline-block;
+    line-height: 1.3em;
+    background-position: 0px 5px;
+    margin-bottom: 4px;
+    margin-top: 3px;
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 11px;
+    color: #0069C6;
+}
+
+#link_red {
+    background-image: url(../images/bullet.gif);
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    display: inline-block;
+    line-height: 1.3em;
+    background-position: 0px 5px;
+    margin-bottom: 4px;
+    margin-top: 3px;
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 11px;
+    color: #ff0000;
+}
+
+.news {
+}
+
+.article {
+    margin: 7px 10px 15px 12px;
+    line-height: 1.5;
+}
+
+.date {
+    color: gray;
+    background-image: url(../images/bullet_yellow.gif);
+    background-repeat: no-repeat;
+    padding-left: 12px;
+    display: inline-block;
+    background-position: 0px 6px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    margin-left: -12px;
+    font-size: 11px;
+}
+
+.link_article {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 11px;
+    color: #0069C6;
+}
+
+.link_bullet {
+    display: inline-block;
+    margin-left: -12px;
+    margin-bottom: 5px;
+    padding-left: 12px;
+    background-image: url(../images/bullet_yellow.gif);
+    background-repeat: no-repeat;
+    background-position: 0px 6px;
+}
+
+.left {
+    vertical-align: top;
+    min-width: 140px;
+    width: 220px;
+}
+
+.center {
+    padding: 0px 10px 0px 16px;  
+}
+
+.right {
+    vertical-align: top;
+    min-width: 180px;
+    width: 245px;
+}
+
+.text {
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.footer_link {
+    color: #0069C6;
+}
+
+/* jQuery UI */
+.ui-corner-all { border-radius: 0px; }
+.ui-widget-content { border: 1px solid #9297A6; background: white; color: black; }
+.ui-widget-content .ui-state-default { background: #434343; color: white; border: none; border-radius: 4px; }
+
+/* keyboard - jQuery UI Widget */
+.ui-keyboard { position: absolute; left: 0; top: 0; z-index: 16000; border: 2px solid black; }
+.ui-keyboard-has-focus { z-index: 16001; }
+.ui-keyboard div { font-size: 12px; }
+.ui-keyboard-button { height: 2em; width: 2em; margin: .1em; cursor: pointer; overflow: hidden; line-height: 2em; margin: 2px; font-size: 12px}
+.ui-keyboard-button span { padding: 0; margin: 0; white-space:nowrap; }
+.ui-keyboard-button-endrow { clear: left; }
+.ui-keyboard-widekey { width: 4em; }
+.ui-keyboard-space { width: 15em; text-indent: -999em; }
+.ui-keyboard-preview-wrapper { text-align: center; padding: 3px; }
+.ui-keyboard-preview { text-align: left; margin: 0 0 3px 0; display: inline; width: 99%;} /* width is calculated in IE, since 99% = 99% full browser width =( */ 
+.ui-keyboard-keyset { text-align: center; white-space: nowrap; padding: 3px }
+.ui-keyboard-input { text-align: left; }
+.ui-keyboard-input-current { -moz-box-shadow: 0px 0px 5px #C9DA16; -webkit-box-shadow: 0px 0px 5px #C9DA16; box-shadow: 0px 0px 5px #C9DA16; background: #f9f9f9}
+.ui-keyboard-placeholder { color: #888; }
+.ui-keyboard-nokeyboard { color: #888; border-color: #888; } /* disabled or readonly inputs, or use input[disabled='disabled'] { color: #f00; } */
+.ui-keyboard-button.disabled { opacity: 0.5; filter: alpha(opacity=50); } /* used by the acceptValid option to make the accept button appear faded */
+.ui-keyboard-spacer { display: inline-block; width: 1px; height: 0; }
+.ui-keyboard-title { cursor: default; background: #D90003; color: white; font-weight: bold; padding: 5px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.ui-keyboard-close-icon { width: 15px; height: 15px; top: 4px; right: 5px; background-image: url("../images/icon_close.gif"); background-repeat: no-repeat; }
+
+/* combo key styling - toggles diacritics on/off */
+.ui-keyboard-button.ui-keyboard-combo.ui-state-default { border-color: #ffaf0f; }
+
+/*** jQuery Mobile definitions ***/
+/* jQuery Mobile styles - need wider buttons because of font size and text-overflow:ellipsis */
+.ui-bar .ui-keyboard-button { width: 3em; display: inline-block; }
+.ui-bar .ui-keyboard-widekey { width: 5.5em; }
+.ui-bar .ui-keyboard-space { width: 15em; }
+.ui-bar .ui-keyboard-space span { visibility: hidden; } /* hides the ellipsis */
+.ui-bar .ui-keyboard-keyset { line-height: 0.5em; }
+.ui-bar input.ui-input-text, .ui-bar textarea.ui-input-text { width: 95%; }
+
+/* over-ride padding set by mobile ui theme - needed because the mobile script wraps button text with several more spans */
+.ui-bar .ui-btn-inner { height: 2em; padding: 0.2em 0; margin: 0; }
+.ui-bar .ui-btn { margin: 0; font-size: 13px; } /* mobile default size is 13px */
+
+/* Media Queries (optimized for jQuery UI themes; may be slightly off in jQuery Mobile themes) */
+/* 240 x 320 (small phone)  */
+@media all and (max-width: 319px) {
+	.ui-keyboard div { font-size: 9px; }
+	.ui-keyboard .ui-keyboard-input { font-size: 12px; }
+	/* I don't own an iPhone so I have no idea how small this really is... is it even clickable with your finger? */
+	.ui-bar .ui-btn { margin: 0; font-size: 9px; }
+	.ui-bar .ui-keyboard-button { width: 1.8em; height: 2.5em; }
+	.ui-bar .ui-keyboard-widekey { width: 4em; }
+	.ui-bar .ui-keyboard-space { width: 8em; }
+	.ui-bar .ui-btn-inner { height: 2.5em; padding: 0.3em 0; }
+}
+
+/* 320 x 480 (iPhone)  */
+@media all and (min-width: 320px) and (max-width: 479px) {
+	.ui-keyboard div { font-size: 9px; }
+	.ui-keyboard .ui-keyboard-input { font-size: 14px; }
+	/* I don't own an iPhone so I have no idea how small this really is... is it even clickable with your finger? */
+	.ui-bar .ui-btn { margin: 0; font-size: 11px; }
+	.ui-bar .ui-keyboard-button { width: 1.8em; height: 3em; }
+	.ui-bar .ui-keyboard-widekey { width: 4.5em; }
+	.ui-bar .ui-keyboard-space { width: 10em; }
+	.ui-bar .ui-btn-inner { height: 3em; padding: 0.7em 0; }
+}
+
+/* 480 x 640 (small tablet) */
+@media all and (min-width: 480px) and (max-width: 767px) {
+	.ui-keyboard div { font-size: 13px; }
+	.ui-keyboard .ui-keyboard-input { font-size: 14px; }
+	.ui-bar .ui-btn { margin: 0; font-size: 10px; }
+	.ui-bar .ui-keyboard-button { height: 2.5em; }
+	.ui-bar .ui-btn-inner { height: 2.5em; padding: 0.5em 0; }
+}
+
+#currency_item {
+    padding: 17px 10px 9px 12px;
+    margin: 12px 9px 21px 20px;
+}
